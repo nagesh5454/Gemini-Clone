@@ -13,7 +13,9 @@ Gemini AI Clone is a project aimed at replicating the functionality of a convers
 - **Clerk**: Integrated for secure and easy-to-use authentication.</br>
 - **ImageKit**: Handles optimized image delivery and management.</br>
 </hr>
+
 ### Backend
+</br>
 - **Node.js & Express**: Serve as the backbone of the server-side operations.</br>
 - **Mongoose**: Manages database interactions with MongoDB.</br>
 - **Clerk SDK**: Provides robust authentication and user management.</br>
