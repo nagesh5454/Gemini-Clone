@@ -4,7 +4,7 @@
 // import express from 'express';
 // import cors from 'cors';
 // import path from 'path';
-// import url, { fileURLToPath } from 'url';
+
 // import ImageKit from 'imagekit';
 // import mongoose from 'mongoose';
 // import Chat from './models/chat.js';
@@ -226,11 +226,11 @@ const imagekit = new ImageKit({
   privateKey: process.env.IMAGE_KIT_PRIVATE_KEY,
 });
 
-console.log('Public Key:', process.env.IMAGE_KIT_PUBLIC_KEY);
-console.log('Private Key:', process.env.IMAGE_KIT_PRIVATE_KEY);
-console.log('URL Endpoint: https://ik.imagekit.io/y9jccip2nj');
-console.log('Clerk Publishable Key:', process.env.CLERK_PUBLISHABLE_KEY);
-console.log('Clerk Secret Key:', process.env.CLERK_SECRET_KEY);
+// console.log('Public Key:', process.env.IMAGE_KIT_PUBLIC_KEY);
+// console.log('Private Key:', process.env.IMAGE_KIT_PRIVATE_KEY);
+// console.log('URL Endpoint: https://ik.imagekit.io/y9jccip2nj');
+// console.log('Clerk Publishable Key:', process.env.CLERK_PUBLISHABLE_KEY);
+// console.log('Clerk Secret Key:', process.env.CLERK_SECRET_KEY);
 
 app.get("/api/upload", (req, res) => {
   const result = imagekit.getAuthenticationParameters();
